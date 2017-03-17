@@ -1,0 +1,15 @@
+<div>
+  <life-game
+    [width]="60"
+    [height]="60"
+    [size]="20"
+
+    (afterGridViewInit)="afterGridViewInit($event)"
+
+  >
+
+  </life-game>
+</div>
+
+<button (click)="onClickStart()">start</button>
+<button (click)="onClickEnd()">end</button>

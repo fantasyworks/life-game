@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAAW;EACT,OAAO,EAAE,KAAK;EAEd,eAAK;IACH,OAAO,EAAE,SAAS;EAGpB,gBAAM;IACJ,OAAO,EAAE,UAAU;IACnB,MAAM,EAAE,SAAS;EAOnB,gBAAM;IACJ,gBAAgB,EAAE,OAAO",
+"sources": ["life-game.component.scss"],
+"names": [],
+"file": "life-game.component.css"
+}

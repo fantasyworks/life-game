@@ -1,0 +1,13 @@
+<div class="life-game">
+  <div class="row" *ngFor="let row of service.lifeMap; let y=index">
+    <div
+      *ngFor="let cell of row;  let x=index"
+      class="{{cell?'life':'death'}} cell"
+      [style.width]="size + 'px'"
+      [style.height]="(size/2) + 'px'"
+
+      (click)="onClickCell(y,x)"
+      >
+    </div>
+  </div>
+</div>

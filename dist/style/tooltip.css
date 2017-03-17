@@ -1,0 +1,22 @@
+/* Tooltip value */
+.tooltip-text {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip value - see examples below! */
+  position: fixed;
+  z-index: 3004;
+  transform: translateY(-100%); }
+
+/* Show the tooltip value when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+  transition-delay: 1s;
+  /* delays for 1 second */
+  -webkit-transition-delay: 1s;
+  /* for Safari & Chrome */
+  visibility: visible; }
+
+/*# sourceMappingURL=tooltip.css.map */

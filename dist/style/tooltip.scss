@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+:host /deep/ .tooltip-inner {
+  background-color: red;
+  color: white;
+}
+
+:host /deep/ .tooltip .tooltip-arrow {
+  border-top-color: red;
+}
+

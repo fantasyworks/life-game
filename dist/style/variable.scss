@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+$z-index-loading      : 9000;
+$z-index-context      : 4000;
+$z-index-tooltip      : 3004;
+$z-index-key-number   : 3002;
+$z-index-combo-list   : 3001;
+$z-index-calendar     : 3000;
+$z-index-modal        : 2001;
+$z-index-no-control   : 2000;
+$z-index-error-notify : 1000;
+
+$font-size-input  : 16px;
+$font-size-small  : 15px;
+$font-size-normal : 20px;
+
+//input
+$color-input-font-default       : #444;
+$color-input-back-readonly      : lavender;
+$color-input-font-readonly      : #999;
+$color-input-font-required-mark : #f00;
+$color-input-back-disabled      : #efefef;
+$color-input-border-disabled    : #ccc;
+$color-input-border-input       : #D0D0D0;
+
+//table
+$color-table-border       :#c6c6c6;
+
+//background
+$color-no-control-back    :#999999;
+
+//header
+$color-back-header        : #eaeaea;
+
+// selected
+$color-back-selected      : #0085c7;
+$color-back-row-selected  : aquamarine;
+$color-font-selected      : #fff;
+
+//modal
+$color-modal-back         : white;
+
+//button
+$color-btn-font-hover     : white;
+$color-btn-back-hover     : #4CAF50;
+
+// エラー通知パネル
+$color-error-back               : rgba(242, 222, 222, 0.5);
+$color-error-font-title         : #444;
+$color-error-back-title         : #FF0000;
+$color-error-font-title-close   : #FFFFFF;
+$color-error-border             : #EBCCD1;
+$color-error-font-contents      : #DC143C;
+$color-error-font-contents-hover: #B31031;

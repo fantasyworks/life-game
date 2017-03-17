@@ -1,0 +1,11 @@
+.life-game {
+  display: table; }
+  .life-game .row {
+    display: table-row; }
+  .life-game .cell {
+    display: table-cell;
+    border: 1px solid; }
+  .life-game .life {
+    background-color: #4CAF50; }
+
+/*# sourceMappingURL=life-game.component.css.map */

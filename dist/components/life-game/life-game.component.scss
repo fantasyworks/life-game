@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.life-game {
+  display: table;
+
+  .row {
+    display: table-row;
+  }
+
+  .cell {
+    display: table-cell;
+    border: 1px solid;
+  }
+
+  .death {
+
+  }
+
+  .life {
+    background-color: #4CAF50;
+  }
+
+  label {
+  }
+}
