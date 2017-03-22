@@ -7,7 +7,7 @@ import {LifeGameService} from "./life-game.service";
 @Component({
   selector: 'life-game'
   , styleUrls: ['life-game.component.css']
-  , moduleId: module.id, templateUrl: 'life-game.component.html'
+  , templateUrl: 'life-game.component.html'
   , providers: [LifeGameService]
 })
 export class LifeGameComponent implements OnChanges, AfterViewInit {
