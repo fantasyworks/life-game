@@ -2,6 +2,8 @@ import {NgModule, CUSTOM_ELEMENTS_SCHEMA, ModuleWithProviders} from "@angular/co
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import {LifeGameComponent} from "./components/life-game/life-game.component";
+
+export {LifeGameService} from './components/life-game/life-game.service';
 /**
  * Component, Directive, Pipeを含まれるModule
  */
